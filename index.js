@@ -1,1 +1,1 @@
-$('#line-break1').css("color", 'blue');
+$('hr').css('border', 'solid #DA5BE3');
