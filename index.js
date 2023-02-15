@@ -1,0 +1,1 @@
+$('#line-break1').css("color", 'blue');

@@ -1,0 +1,22 @@
+
+/* Color Theme - #184861  #5B6DE3 #A770FA #DA5BE3  #FD6579*/
+
+
+
+body{
+
+    background-color: #184861;
+}
+
+/* All styles for the Heading  */
+#intro {
+
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color: #FD6579
+    
+
+    ;
+
+}
