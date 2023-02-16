@@ -1,20 +1,28 @@
 
-/* Color Theme - #184861  #5B6DE3 #A770FA #DA5BE3  #FD6579*/
+/* Color Theme - #1A7AAD  #AD2B34 #184861 #615F0F  #ADAA23*/
 
 
 
 body{
 
-    background-color: #184861;
+    background-color: #4E1861;
 }
 
 /* All styles for the Heading  */
 #intro {
-
+    background-color: #781877;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3rem;
-    color: #FD6579
+    text-shadow: 2px 2px 3px green;
+    font-family: 'Gentium Book Plus', serif;
+    font-style: Italic;
+    font-weight: bold;
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 10px;
+    padding-top:20px;
+    padding-bottom:30px;
+
+    
     
 
     ;
@@ -23,9 +31,74 @@ body{
 #line-break1{
 
 
-margin-left: 80px;
-margin-right: 80px;
-border-style: double;
-color: #DA5BE3;
+
+border:none;
+background-color: black;
+padding-bottom: 5px;
+opacity: 0; 
+
+}
+#song-selection{
+
+    text-align: center;
+}
+                /* buttons */
+
+/* Countdown Button */
+#countdown {
+    font-family: 'Gentium Book Plus', serif;
+    font-style: Regular;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px purple;
+    background-color: #136114;
+    margin-right:30px;
+    margin-left:30px;
+}
+.btn-danger {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: black;
+    --bs-btn-border-color: black;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: white;
+    --bs-btn-focus-shadow-rgb: 225,83,97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: white;
+    --bs-btn-active-border-color: black;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc3545;
+    --bs-btn-disabled-border-color: #dc3545;
+}
+
+
+
+/* Special Vibes Button */
+#special-vibes{
+    font-family: 'Gentium Book Plus', serif;
+    font-style: Regular;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px purple;
+    background-color: #136114;
+    margin-right:30px;
+    margin-left:30px;
+}
+.btn-info{
+    --bs-btn-color: white;
+    --bs-btn-bg: black;
+    --bs-btn-border-color: black;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: black;
+    --bs-btn-hover-border-color:white;
+    --bs-btn-focus-shadow-rgb: 11,172,204;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: black;
+    --bs-btn-active-border-color: black;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: white;
+    --bs-btn-disabled-border-color: black;
 
 }
