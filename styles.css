@@ -102,3 +102,29 @@ opacity: 0;
     --bs-btn-disabled-border-color: black;
 
 }
+
+
+/* Count Down Video */
+
+#countdown-vid{
+
+    visibility: hidden;
+    width:50vw;
+    height:100vh;
+    object-fit: cover;
+    z-index: auto;
+    
+}
+
+
+
+/* Vibe Dance Video */
+#special-vid{
+
+    visibility: hidden;
+    width:50vw;
+    height:100vh;
+    object-fit: cover;
+    z-index: auto;
+
+}
