@@ -128,3 +128,15 @@ opacity: 0;
     z-index: auto;
 
 }
+
+/* Game bar 1 */ 
+
+#gamebar1{
+
+    position: absolute;
+    left: 5px;
+    right: 1920px;
+    top:300px;
+
+
+}
