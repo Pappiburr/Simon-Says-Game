@@ -1,3 +1,10 @@
+// Reload Button// 
+$('#Reload').on('click',function(){
+
+    location.reload();
+})
+
+
 // Count Down Video //
 
 $('#countdown').on('click', function(){
@@ -21,6 +28,7 @@ $('#special-vibes').on('click', function(){
     $('#special-vid').attr("loop","loop");
     $('#countdown').attr('disabled', 'true');
     $('#special-vibes').attr('disabled', 'true');
+    $('#gamebar1').css('visibility','visible');
     
 
     var audioSV = new Audio("sounds/Yarin Primak - Special Vibe.mp3");

@@ -102,7 +102,19 @@ opacity: 0;
     --bs-btn-disabled-border-color: black;
 
 }
+/* Reload Button */ 
+#Reload{
 
+
+font-family: 'Gentium Book Plus', serif;
+font-style: Regular;
+font-weight: 400;
+font-size: 1.5rem;
+text-shadow: 2px 2px 3px purple;
+background-color: #136114;
+margin-right:30px;
+margin-left:30px;
+}
 
 /* Count Down Video */
 
@@ -134,9 +146,30 @@ opacity: 0;
 #gamebar1{
 
     position: absolute;
-    left: 5px;
+    left: 15px;
     right: 1920px;
-    top:300px;
+    top:270px;
+    min-width: 650px;
+    max-width:850px ;
+    color: red;
+    outline-width: 3px;
+    outline-color: white;
+    visibility: hidden;
+
+}
+#uparrow1{
 
 
+
+}
+#rightarrow1{
+
+}
+#downarrow1{
+
+ 
+}
+#leftarrow1{
+
+   
 }
