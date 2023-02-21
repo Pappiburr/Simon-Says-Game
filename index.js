@@ -15,6 +15,11 @@ $('#countdown').on('click', function(){
     $('#countdown').attr('disabled', 'true');
     $('#special-vibes').attr('disabled', 'true');
     $('#special-vid').css('z-index', '-1');
+    //
+    //
+    // TODO: FIX nomeclature i.e. "rexbanner-countdown.mp3" - remove spaces and unnecessary characters
+    //
+    //
     var audioCD = new Audio("sounds/Rex Banner - Countdown.mp3");
     audioCD.play();
 
