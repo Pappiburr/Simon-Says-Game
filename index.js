@@ -43,12 +43,31 @@ $('#special-vibes').on('click', function(){
 
 // Arrow Highlight Function - changes background on arrow, for a few seconds, then switches it back off // 
 
-function arrowHighlight(){
+// function arrowHighlight(){
 
-    $('#uparrow1').css('background-color', 'green');
+//     $('#uparrow1').css('background-color', 'green');
+// }
+// function arrowNoHighlight(){
+//     $('#uparrow1').css('background-color','');
+// }
+// setInterval(arrowHighlight,1000);
+// setInterval(arrowNoHighlight,2000);
+
+
+var arrowSets1 = document.getElementsByClassName('arrowSet1');
+for (i=0; i < arrowSets1.length;i++)
+{
+    var randomArrowLight = arrowSets1[Math.floor(Math.random()*arrowSets1.length)];
+    console.log (randomArrowLight);
+    if($.inArray(randomArrowLight)
 }
-function arrowNoHighlight(){
-    $('#uparrow1').css('background-color','');
+function arrowLightOn(){
+randomArrowLight.style.backgroundColor = "green";
+
 }
-setInterval(arrowHighlight,1000);
-setInterval(arrowNoHighlight,2000);
+function arrowLightOff(){
+    randomArrowLight.style.backgroundColor = "";
+}
+
+ setInterval(arrowLightOn, 1000);
+ setInterval(arrowLightOff, 2000);
