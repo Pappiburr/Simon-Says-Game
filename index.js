@@ -45,10 +45,5 @@ function arrowHighlight(){
 function arrowNoHighlight(){
     $('#uparrow1').css('background-color','');
 }
-
-function arrowOnOff(){
-    arrowHighlight();
-    arrowNoHighlight();
-}
 setInterval(arrowHighlight,1000);
 setInterval(arrowNoHighlight,2000);
