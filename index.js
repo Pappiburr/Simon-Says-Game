@@ -34,3 +34,21 @@ $('#special-vibes').on('click', function(){
     var audioSV = new Audio("sounds/Yarin Primak - Special Vibe.mp3");
     audioSV.play();
 });
+
+
+// Arrow Highlight Function - changes background on arrow, for a few seconds, then switches it back off // 
+
+function arrowHighlight(){
+
+    $('#uparrow1').css('background-color', 'green');
+}
+function arrowNoHighlight(){
+    $('#uparrow1').css('background-color','');
+}
+
+function arrowOnOff(){
+    arrowHighlight();
+    arrowNoHighlight();
+}
+setInterval(arrowHighlight,1000);
+setInterval(arrowNoHighlight,2000);
