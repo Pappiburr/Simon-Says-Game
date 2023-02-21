@@ -59,7 +59,7 @@ for (i=0; i < arrowSets1.length;i++)
 {
     var randomArrowLight = arrowSets1[Math.floor(Math.random()*arrowSets1.length)];
     console.log (randomArrowLight);
-    if($.inArray(randomArrowLight)
+    
 }
 function arrowLightOn(){
 randomArrowLight.style.backgroundColor = "green";
@@ -70,4 +70,4 @@ function arrowLightOff(){
 }
 
  setInterval(arrowLightOn, 1000);
- setInterval(arrowLightOff, 2000);
+ setInterval(arrowLightOff, 1500);
