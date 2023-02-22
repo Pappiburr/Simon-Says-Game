@@ -8,19 +8,17 @@ $('#Reload').on('click',function(){
 // Count Down Video //
 
 $('#countdown').on('click', function(){
-
+    let time3 = setInterval(function(){$('#intro').html('3');},1000) 
+    let time2 = setInterval(function(){$('#intro').html('2');},2000) 
+    let time1 = setInterval(function(){$('#intro').html('1');},3000) 
+  
+   
     $('#countdown-vid').css('visibility', 'visible');
     $('#countdown-vid').trigger('play');
     $('#countdown-vid').attr("loop","loop");
     $('#countdown').attr('disabled', 'true');
     $('#special-vibes').attr('disabled', 'true');
     $('#gamebar2').css('visibility','visible');
-    
-    //
-    //
-    // TODO: FIX nomeclature i.e. "rexbanner-countdown.mp3" - remove spaces and unnecessary characters
-    //
-    //
     var audioCD = new Audio("sounds/Rex Banner - Countdown.mp3");
     audioCD.play();
 
@@ -40,21 +38,6 @@ $('#special-vibes').on('click', function(){
     var audioSV = new Audio("sounds/Yarin Primak - Special Vibe.mp3");
     audioSV.play();
 });
-
-
-// Arrow Highlight Function - changes background on arrow, for a few seconds, then switches it back off // 
-
-// function arrowHighlight(){
-
-//     $('#uparrow1').css('background-color', 'green');
-// }
-// function arrowNoHighlight(){
-//     $('#uparrow1').css('background-color','');
-// }
-// setInterval(arrowHighlight,1000);
-// setInterval(arrowNoHighlight,2000);
-
-
 let arrowSets1 = document.getElementsByClassName('arrowSet1');
 for ( var i=0; i < arrowSets1.length; i++)
 {
