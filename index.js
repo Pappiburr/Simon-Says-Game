@@ -14,7 +14,8 @@ $('#countdown').on('click', function(){
     $('#countdown-vid').attr("loop","loop");
     $('#countdown').attr('disabled', 'true');
     $('#special-vibes').attr('disabled', 'true');
-    $('#special-vid').css('z-index', '-1');
+    $('#gamebar2').css('visibility','visible');
+    
     //
     //
     // TODO: FIX nomeclature i.e. "rexbanner-countdown.mp3" - remove spaces and unnecessary characters
@@ -60,16 +61,18 @@ for ( var i=0; i < arrowSets1.length; i++)
     
     var randomArrowLight = arrowSets1[Math.floor(Math.random()*arrowSets1.length)];
     console.log(randomArrowLight);
+    
 
 }
-
+setInterval(arrowLightOn, 900);
 function arrowLightOn(){
 randomArrowLight.style.backgroundColor = "green";
 
 }
+setInterval(arrowLightOff, 1000);
 function arrowLightOff(){
     randomArrowLight.style.backgroundColor = "";
 }
- setInterval(arrowLightOn, 900);
- setInterval(arrowLightOff, 1000);
+
+ 
  

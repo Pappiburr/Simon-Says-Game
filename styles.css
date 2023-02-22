@@ -157,7 +157,7 @@ margin-left:30px;
     visibility: hidden;
 
 }
-#uparrow1{
+/* #uparrow1{
 
 
 
@@ -172,4 +172,17 @@ margin-left:30px;
 #leftarrow1{
 
    
-}
+} */
+
+#gamebar2{
+
+    position: absolute;
+    left: 865px;
+    right: 15;
+    top:270px;
+    min-width: 650px;
+    max-width:850px ;
+    color: red;
+    outline-width: 3px;
+    outline-color: white;
+    visibility: hidden;
