@@ -54,13 +54,15 @@ $('#special-vibes').on('click', function(){
 // setInterval(arrowNoHighlight,2000);
 
 
-var arrowSets1 = document.getElementsByClassName('arrowSet1');
-for (i=0; i < arrowSets1.length;i++)
+let arrowSets1 = document.getElementsByClassName('arrowSet1');
+for ( var i=0; i < arrowSets1.length; i++)
 {
-    var randomArrowLight = arrowSets1[Math.floor(Math.random()*arrowSets1.length)];
-    console.log (randomArrowLight);
     
+    var randomArrowLight = arrowSets1[Math.floor(Math.random()*arrowSets1.length)];
+    console.log(randomArrowLight);
+
 }
+
 function arrowLightOn(){
 randomArrowLight.style.backgroundColor = "green";
 
@@ -68,6 +70,6 @@ randomArrowLight.style.backgroundColor = "green";
 function arrowLightOff(){
     randomArrowLight.style.backgroundColor = "";
 }
-
- setInterval(arrowLightOn, 1000);
- setInterval(arrowLightOff, 1500);
+ setInterval(arrowLightOn, 900);
+ setInterval(arrowLightOff, 1000);
+ 
