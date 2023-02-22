@@ -8,17 +8,20 @@ $('#Reload').on('click',function(){
 // Count Down Video //
 
 $('#countdown').on('click', function(){
-    let time3 = setInterval(function(){$('#intro').html('3');},1000) 
-    let time2 = setInterval(function(){$('#intro').html('2');},2000) 
-    let time1 = setInterval(function(){$('#intro').html('1');},3000) 
+    let time3 = setTimeout(function(){$('#intro').html('3');},1000) 
+    let time2 = setTimeout(function(){$('#intro').html('2');},2000) 
+    let time1 = setTimeout(function(){$('#intro').html('1');},3000) 
+    let timeGO = setTimeout(function(){$('#intro').html('GO!');},4000)
+    let specialVidStart = setTimeout(function(){$('#countdown-vid').css('visibility', 'visible');},4500)
+    let SpecialGamebarStart = setTimeout(function(){$('#gamebar2').css('visibility','visible');},4500)
   
    
-    $('#countdown-vid').css('visibility', 'visible');
+   
     $('#countdown-vid').trigger('play');
     $('#countdown-vid').attr("loop","loop");
     $('#countdown').attr('disabled', 'true');
     $('#special-vibes').attr('disabled', 'true');
-    $('#gamebar2').css('visibility','visible');
+   
     var audioCD = new Audio("sounds/Rex Banner - Countdown.mp3");
     audioCD.play();
 
@@ -26,13 +29,19 @@ $('#countdown').on('click', function(){
 
             // Vibe Video and Audio// 
 $('#special-vibes').on('click', function(){
+    let time3 = setTimeout(function(){$('#intro').html('3');},1000) 
+    let time2 = setTimeout(function(){$('#intro').html('2');},2000) 
+    let time1 = setTimeout(function(){$('#intro').html('1');},3000) 
+    let timeGO = setTimeout(function(){$('#intro').html('GO!');},4000)
+    let specialVidStart = setTimeout(function(){$('#special-vid').css('visibility', 'visible');},4500)
+    let SpecialGamebarStart = setTimeout(function(){$('#gamebar1').css('visibility','visible');},4500)
 
-    $('#special-vid').css('visibility', 'visible');
+    // $('#special-vid').css('visibility', 'visible');
     $('#special-vid').trigger('play');
     $('#special-vid').attr("loop","loop");
     $('#countdown').attr('disabled', 'true');
     $('#special-vibes').attr('disabled', 'true');
-    $('#gamebar1').css('visibility','visible');
+  
     
 
     var audioSV = new Audio("sounds/Yarin Primak - Special Vibe.mp3");
