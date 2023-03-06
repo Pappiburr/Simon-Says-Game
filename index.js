@@ -60,8 +60,12 @@ function down1Off(){$('#downarrow1').css("background-color", "");}
 
 var specVid = document.getElementById("special-vid");
 
-
-
+while (audioSV.onplay){
+$(document).addEventListener('keydown', (event) =>{
+    console.log(event);
+    return;
+})
+}
 
 specVid.onplay = function(){
 setTimeout(up1On, 3000);
