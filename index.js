@@ -63,7 +63,8 @@ var specVid = document.getElementById("special-vid");
 
 
 
-specVid.onplaying = function(){setTimeout(up1On, 3000);
+specVid.onplay = function(){
+setTimeout(up1On, 3000);
 setTimeout(up1Off, 3500);
 setTimeout(left1On, 4000);
 setTimeout(left1Off, 4500);
