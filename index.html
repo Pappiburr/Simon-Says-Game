@@ -22,43 +22,24 @@
             <div class = "container-fluid" id="song-selection">
                 <div class = 'row'>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                            <button type= 'button' class= 'btn btn-danger'id="countdown"> CountDown </button> 
-                            <button type= 'button' class= 'btn btn-info'id="special-vibes"> Special Vibes </button>
+                            <button type= 'button' class= 'btn btn-info'id="special-vibes"> Start </button>
                             <button type= 'button' class= 'btn btn-info'id="Reload"> Reload </button>
                     </div>
                  </div>
               
-            <div class = "container-fluid" id = "videos"> 
-                <div class = 'row'>   
-                    <div class = "d-grid gap-2 d-md-flex justify-content-lg-center">
-                        
-                           <video src="animations\countdown-dance.mp4" class="object-fit-fill" id='countdown-vid'></video>
-                            <video src="animations\special-vibe-dance.mp4" class="object-fit-fill" id='special-vid'></video>
-                        
-                    </div>    
-                </div>         
-             </div>
-             <div class="container text-center" id = 'gamebar1'>
-                <div class="row row-cols-4">
-                  <div class="col-3 arrowSet1"><img src="images\up-arrow.png" alt ="uparrow" id="uparrow1"> </img> </div>
-                  <div class="col-3 arrowSet1"><img src="images\arrow-right.png" alt ="uparrow" id="rightarrow1"> </img></div>
-                  <div class="col-3 arrowSet1"><img src="images\arrow-down.png" alt ="uparrow"id='downarrow1'> </img></div>
-                  <div class="col-3 arrowSet1"><img src="images\arrow-left.png" alt ="uparrow"id='leftarrow1'> </img></div>
-            </div>
-            </div>
-            <div class="container text-center" id = 'gamebar2'>
-                <div class="row row-cols-4">
-                  <div class="col-3 arrowSet2"><img src="images\up-arrow.png" alt ="uparrow" id="uparrow2"> </img> </div>
-                  <div class="col-3 arrowSet2"><img src="images\arrow-right.png" alt ="uparrow" id="rightarrow2"> </img></div>
-                  <div class="col-3 arrowSet2"><img src="images\arrow-down.png" alt ="uparrow"id='downarrow2'> </img></div>
-                  <div class="col-3 arrowSet2"><img src="images\arrow-left.png" alt ="uparrow"id='leftarrow2'> </img></div>
-            </div>
-            </div>
-            
+            <div class = "container-fluid" id = "game-Background"> 
+                <img src="images\game-Background.png"></img> 
+            </div>         
+            <button type ="button" class="btn btn-link" id ="up-Arrow"><img src ="images\Up-Header-Arrow.png"> </img> </button>
+            <button type ="button" class="btn btn-link" id ="right-Arrow"><img src ="images\Right-Header-Arrow.png"> </img> </button>    
+            <button type ="button" class="btn btn-link" id ="down-Arrow"><img src ="images\Down-Header-Arrow.png"> </img> </button>
+            <button type ="button" class="btn btn-link" id ="left-Arrow"><img src ="images\Left-Header-Arrow.png"> </img> </button>
+\
 
             
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/6eea9637e6.js" crossorigin="anonymous"></script>
         <script src="index.js" async defer></script>
     </body>
 </html>

@@ -61,10 +61,10 @@ function down1Off(){$('#downarrow1').css("background-color", "");}
 var specVid = document.getElementById("special-vid");
 
 while (audioSV.onplay){
-$(document).addEventListener('keydown', (event) =>{
-    console.log(event);
-    return;
-})
+$(document).addEventListener('keydown', (event) =>{});
+    onkeydown = (event)=>{};
+    console.log(KeyboardEvent);
+
 }
 
 specVid.onplay = function(){
