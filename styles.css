@@ -1,16 +1,16 @@
 
-/* Color Theme - #DB4694  #DBCB51 #AE3BDB #4E1861  #28DB25 #4E30DB*/
+/* Color Theme - #0fc0fc  #7b1daf   #ff2fb9 #d4ff47 #183649 #FF7844  #A64942  #53354A #1B1F3A */
 
 
 
 body{
 
-    background-color: #4E1861;
+    background-color: #1B1F3A;
 }
 
 /* All styles for the Heading  */
 #intro {
-    background-color: #781877;
+    background-color:  #183649  ;
     text-align: center;
     text-shadow: 2px 2px 3px green;
     font-family: 'Gentium Book Plus', serif;
@@ -107,46 +107,47 @@ margin-left:30px;
 z-index:3;
 border-style: solid;
 border-width: thick;
-background-color: #28DB25;
-border-top: #23809c;  
-border-right:#23809c; 
-border-bottom: #cabd05;
-border-left: #23809c;
+background-color: #FF7844;
+border-inline-color: #7b1daf; 
+border-top-color:#7b1daf;
+border-bottom-color:#7b1daf; 
+margin-top: 40px;
+margin-bottom: 10px;
 }
 
 #up-Arrow{
     border-style: solid;
     border-width: thick;
-    border-inline-color: #DBCB51;
+    border-inline-color: #183649;
     padding-left: 65px;
     padding-right: 65px;
-    background-color:#DB4694
+    background-color:#A64942  ;
 }
 #right-Arrow{
     border-style: solid;
     border-width: thick;
-    border-inline-color: #DBCB51;
+    border-inline-color: #183649;
     padding-left: 65px;
     padding-right: 65px;
-    background-color:#DB4694
+    background-color:#A64942  ;
 }
 
 #down-Arrow{
     border-style: solid;
     border-width: thick;
-    border-inline-color: #DBCB51;
+    border-inline-color: #183649;
     padding-left: 65px;
     padding-right: 65px;
-    background-color:#DB4694
+    background-color:#A64942 ;
 
 }
 #left-Arrow{
     border-style: solid;
-    border-width: thin;
-    border-inline-color: #DBCB51;
+    border-width: thick;
+    border-inline-color: #183649;
     padding-left: 65px;
     padding-right: 65px;
-    background-color:#DB4694
+    background-color:#A64942   ;
 
 }
 
@@ -159,21 +160,22 @@ border-left: #23809c;
 /* Game Rows */
 
   #arrow-column{
-    border-inline-color: #4E30DB;
-    border-top-color: #4E30DB;
+    border-inline-color: #d4ff47;
     border-style: solid;
     border-width: thick;
-    background-color:#DB4694;
+    background-color:#A64942;
+    border-top-color: #d4ff47; 
+    border-bottom-color: #d4ff47; 
   
   }
 
   #row-1{
 
     padding-bottom: 900px;
-    background-color: #AE3BDB;
-    border-inline-color: #28DB25;
-    border-top-color: #28DB25;
-    border-bottom-color:#28DB25;
+    background-color: #FF7844  ;
+    border-inline-color: #1B1F3A ;
+    border-top-color: #1B1F3A;
+    border-bottom-color:#1B1F3A;
     border-style: solid;
     border-width: thick;
     padding-left: 65px;
@@ -185,10 +187,10 @@ border-left: #23809c;
   #row-2{
 
     padding-bottom: 900px;
-    background-color: rgb(155, 43, 207);
-    border-inline-color: #28DB25;
-    border-top-color: #28DB25;
-    border-bottom-color:#28DB25;
+    background-color: #FF7844 ;
+    border-inline-color: #1B1F3A ;
+    border-top-color: #1B1F3A;
+    border-bottom-color:#1B1F3A;
     border-style: solid;
     border-width: thick;
     padding-left: 65px;
@@ -198,10 +200,10 @@ border-left: #23809c;
   #row-3{
 
     padding-bottom: 900px;
-    background-color: rgb(155, 43, 207);
-    border-inline-color: #28DB25;
-    border-top-color: #28DB25;
-    border-bottom-color:#28DB25;
+    background-color: #FF7844   ;
+    border-inline-color: #1B1F3A ;
+    border-top-color: #1B1F3A;
+    border-bottom-color:#1B1F3A;
     border-style: solid;
     border-width: thick;
     padding-left: 65px;
@@ -212,10 +214,10 @@ border-left: #23809c;
   #row-4{
 
     padding-bottom: 900px;
-    background-color: rgb(155, 43, 207);
-    border-inline-color: #28DB25;
-    border-top-color: #28DB25;
-    border-bottom-color:#28DB25;
+    background-color: #FF7844  ;
+    border-inline-color: #1B1F3A ;
+    border-top-color: #1B1F3A;
+    border-bottom-color:#1B1F3A;
     border-style: solid;
     border-width: thick;
     padding-left: 65px;
