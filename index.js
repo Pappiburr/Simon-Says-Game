@@ -22,7 +22,7 @@ switch (key){
     case "Right":
     case "ArrowRight":
         break;
-    default: console.log(buttonInnerHTML)
+    default: console.log(arrowPress)
 }
 }
 function buttonAnimation(key) {
