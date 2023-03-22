@@ -234,23 +234,23 @@ margin-bottom: 10px;
   #topArrowMove{
 
     position:absolute;
-    top: 360px;
+    top: 1250px;
 
   }
   #rightArrowMove{
 
     position: absolute;
-    top: 365px;  /* 285 is the exact height of the top arrow*/
+    top: 1250px;  /* 285 is the exact height of the top arrow*/
     align-content: center;
   }
   #downArrowMove{
     position:absolute;
-    top:365px;
+    top:1250px;
     align-content: center;
   }
   #leftArrowMove{
 
     position:absolute;
-    top:365px;
+    top:1250px;
     align-content: center;
   }
