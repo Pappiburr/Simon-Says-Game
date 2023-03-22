@@ -6,6 +6,7 @@
 body{
 
     background-color: #1B1F3A;
+    text-align: center;
 }
 
 /* All styles for the Heading  */
@@ -229,4 +230,27 @@ margin-bottom: 10px;
     padding-left: 65px;
     padding-right: 65px;
 
+  }
+  #topArrowMove{
+
+    position:absolute;
+    top: 360px;
+
+  }
+  #rightArrowMove{
+
+    position: absolute;
+    top: 365px;  /* 285 is the exact height of the top arrow*/
+    align-content: center;
+  }
+  #downArrowMove{
+    position:absolute;
+    top:365px;
+    align-content: center;
+  }
+  #leftArrowMove{
+
+    position:absolute;
+    top:365px;
+    align-content: center;
   }

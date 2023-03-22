@@ -1,4 +1,12 @@
+$('body').css({'overflow':'hidden'});
+  $(document).bind('scroll',function () { 
+       window.scrollTo(0,0); 
+  });
+
+
 // Reload Button// 
+
+
 $('#Reload').on('click',function(){
 
     location.reload();
@@ -31,7 +39,7 @@ let activeButton = document.querySelector("." + key);
     activeButton.classList.add("pressed");
     
 setTimeout(function(){
-        activeButton.classlist.remove("pressed");
+        activeButton.classList.remove("pressed");
  } , 300);
 }
 
