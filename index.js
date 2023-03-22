@@ -70,10 +70,10 @@ var audioSV = new Audio("sounds/Yarin Primak - Special Vibe.mp3");
 //     setTimeout(function(){$('#leftArrowMove').animate({'top':'285',}, 2000 );},2650)
 // })
 function arrowAnimate(){
-    setInterval(function(){$('#topArrowMove').animate({'top':'285',}, 2000 );},2300)
-    setInterval(function(){$('#rightArrowMove').animate({'top':'285',}, 2000 );},2850)
-    setInterval(function(){$('#downArrowMove').animate({'top':'285',}, 2000 );},3000)
-    setInterval(function(){$('#leftArrowMove').animate({'top':'285',}, 2000 );},2650)
+    setInterval(function(){$('#topArrowMove').animate({'top':'285',}, 2500 );},2300)
+    setInterval(function(){$('#rightArrowMove').animate({'top':'285',}, 2500 );},2850)
+    setInterval(function(){$('#downArrowMove').animate({'top':'285',}, 2500 );},3000)
+    setInterval(function(){$('#leftArrowMove').animate({'top':'285',}, 2500 );},2650)
 }
 
 while (isPlaying(audioSV)===true){
