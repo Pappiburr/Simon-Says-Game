@@ -95,6 +95,8 @@ function arrowClear(){
     $('#downArrowMove').css('top', '1250px');
     $('#leftArrowMove').css('top', '1250px');
 }
+
+// Main Gameplay Loop 
 function loopityLoop(){
     setTimeout(arrowAnimate2, 3000)
     setTimeout(arrowClear, 6100)
@@ -115,6 +117,8 @@ function loopityLoop(){
 
     
 }   
+const catchphrases = ['Nice', 'Good Job!' , 'Atta-Boy!', 'Nice going champ!'];
 
+function booYah
 
 
