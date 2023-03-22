@@ -119,6 +119,13 @@ function loopityLoop(){
 }   
 const catchphrases = ['Nice', 'Good Job!' , 'Atta-Boy!', 'Nice going champ!'];
 
-function booYah
+
+function booYah(){
+    randoPhrase = catchphrases[Math.floor(Math.random(catchphrases)*4)] 
+
+    return randoPhrase;
+
+
+}
 
 
