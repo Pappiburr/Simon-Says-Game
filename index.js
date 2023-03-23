@@ -114,14 +114,19 @@ function loopityLoop(){
     setTimeout(arrowClear, 24650)
     setTimeout(arrowAnimate3, 24700)
     setTimeout(arrowClear, 27750)
+    setTimeout(function(){$('#intro').html(booYah);},7000)
+    setTimeout(function(){$('#intro').html(booYah);},9200)
+    setTimeout(function(){$('#intro').html(booYah);},12200)
+    setTimeout(function(){$('#intro').html(booYah);},15500)
+    setTimeout(function(){$('#intro').html(booYah);},18050)
 
     
 }   
-const catchphrases = ['Nice', 'Good Job!' , 'Atta-Boy!', 'Nice going champ!'];
+const catchphrases = ['Nice', 'Good Job!' , 'Atta-Boy!', 'Nice going champ!','Hell yeah Brother', 'Keep it up Sport!'];
 
 
 function booYah(){
-    randoPhrase = catchphrases[Math.floor(Math.random(catchphrases)*4)] 
+    randoPhrase = catchphrases[Math.floor(Math.random(catchphrases)*6)] 
 
     return randoPhrase;
 
@@ -129,3 +134,16 @@ function booYah(){
 }
 
 
+
+topArrowPos = function(){console.log($('#topArrowMove').offset().top)
+}
+
+
+
+
+if (topArrowPos >= 270 && topArrowPos <= 300 )
+{
+    alert(" I've reached the peak");
+}
+
+// setInterval(topArrowPos, 500)
