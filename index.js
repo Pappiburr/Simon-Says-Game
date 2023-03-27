@@ -135,15 +135,19 @@ function booYah(){
 
 
 
-setInterval(function(){console.log($('#topArrowMove').offset().top)}, 1000)
+function arrowCoord()
+{let arrowPos = $('#topArrowMove').offset().top
 
-let topArrowPos = $('#topArrowMove').offset().top
+    if ( arrowPos === 285 )
+        // if ($('#topArrowMove').hasClass("pressed") == true) 
+        {console.log('Star');
+        }
+    
 
-if (topArrowPos === '285' )
-{
-    alert(" I've reached the peak");
-}
 else {
-    ""
 
+    console.log('Wrong')
 }
+}
+
+setInterval( arrowCoord, 200)
