@@ -42,7 +42,7 @@ let activeButton = document.querySelector("." + key);
     
 setTimeout(function(){
         activeButton.classList.remove("pressed");
- } , 300);
+ } , 500);
 }
 var audioSV = new Audio("sounds/Yarin Primak - Special Vibe.mp3");
             // Vibe Video and Audio// 
@@ -138,8 +138,8 @@ function booYah(){
 function arrowCoord()
 {let arrowPos = $('#topArrowMove').offset().top
 
-    if ( arrowPos === 285 )
-        // if ($('#topArrowMove').hasClass("pressed") == true) 
+    // if ( arrowPos === 285 )
+        if ( $('#topArrowMove').hasClass("pressed") )
         {console.log('Star');
         }
     
@@ -150,4 +150,4 @@ else {
 }
 }
 
-setInterval( arrowCoord, 200)
+// setInterval( arrowCoord, 100)
