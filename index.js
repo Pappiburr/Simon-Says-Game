@@ -40,6 +40,7 @@ function buttonAnimation(key) {
 let activeButton = document.querySelector("." + key);
     activeButton.classList.add("pressed");
     
+    
 setTimeout(function(){
         activeButton.classList.remove("pressed");
  } , 500);
@@ -138,8 +139,9 @@ function booYah(){
 function arrowCoord()
 {let arrowPos = $('#topArrowMove').offset().top
 
+
     // if ( arrowPos === 285 )
-        if ( $('#topArrowMove').hasClass("pressed") )
+        if ( $('#topArrowMove').hasClass('pressed') )
         {console.log('Star');
         }
     
