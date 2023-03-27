@@ -135,15 +135,15 @@ function booYah(){
 
 
 
-topArrowPos = function(){console.log($('#topArrowMove').offset().top)
-}
+setInterval(function(){console.log($('#topArrowMove').offset().top)}, 1000)
 
+let topArrowPos = $('#topArrowMove').offset().top
 
-
-
-if (topArrowPos >= 270 && topArrowPos <= 300 )
+if (topArrowPos === '285' )
 {
     alert(" I've reached the peak");
 }
+else {
+    ""
 
-// setInterval(topArrowPos, 500)
+}
